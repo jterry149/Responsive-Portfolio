@@ -262,6 +262,62 @@ div.desc {
     background-color: #4aaaa5;
 }
 
+/*============= Media Queries ================*/
+@media only screen and (max-width: 1239px) 
+{
+    .div-content {width:100%;}
+   
+}
+
+
+@media only screen and (max-width: 980px) 
+{
+ h1 {
+    
+ }	
+ .container {
+   
+ }
+ .header {
+    
+ }
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+
+}
+
+
+@media only screen and (max-width: 640px) 
+{
+    .logo {
+        display: block; 
+        max-width: 640px;
+    }	
+    nav {
+        display: inline-block;
+        width: auto;
+    }
+    .container {
+        max-width: 640px;
+    }
+    .header {
+        display: block;  
+        margin: 0 auto;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .content-1
+    {
+        width: 100%;
+    }
+    
+}
+
+
 
 
 
