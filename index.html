@@ -16,34 +16,35 @@
 <!--========Content=================================-->
 <body>
 
-    <div class="container">
-<!--==========Header=================================-->
-        <header class="header">     
-            <h1 class="logo">Jessica Terry</h1>
-<!--========Navigation Links========================-->
-                <nav class="nav-menu">
-                     <ul>
-                        <li><a class="active" href="index.html">About</a></li>
-                        <li><a class="#" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="#" href="contact.html">Contact</a></li>
-                     </ul>
-                </nav>
-        </header>                       
+<!--==========Header=================================--> 
+            <header id="headerhead">  
+                <div class="container">
+                <a href="index.html" id="logo">Jessica Terry</a>
+                    <nav>
+                        <a class="active" href="index.html">About</a>
+                        <a class="#" href="portfolio.html">Portfolio</a>
+                        <a class="#" href="contact.html">Contact</a>
+                    </nav>
+                </div>
+            </header>                       
 <!--========About Content Main Body========================-->
-    <div class="content-1">
-        <div class="about-me">
-            <h2 class="content-heading">About Me</h2>
-            <p class="content-paragraph"><img class="content-images" src="./assets/images/myself.jpeg" alt="Your Name">
-                <strong>Who am I</strong><br>
-                I’m Jessica Terry a Freelance Web Developer by day and a mountain biking, adventure seeking girl by night. I use the same passion I have for mountain biking in my career. I love what I do and enjoy helping make the internet more beautiful one web application design at a time. 
-                <br><br>
-                I have experience in a variety languages, technologies and frameworks to build a custom web application for customers. <a href="portfolio.html" class="links">Browse through some of my work.</a>
-            </p>
-        </div>
+<div class="wrapper">
+    <div id="main-content" class="container">
+        <section class="content-section">
+            <h1>About Me</h1>
+            <img src="./assets/images/myself.jpeg" class="content-image" alt="Jessica Terry">
+                <p>I’m Jessica Terry a Freelance Web Developer by day and a mountain biking, adventure seeking girl by night. I use the same passion I have for mountain biking in my career. I love what I do and enjoy helping make the internet more beautiful one web application design at a time.</p>
+
+                <p>I have experience in a variety languages, technologies and frameworks to build a custom web application for customers. <a href="portfolio.html" class="links">Browse through some of my work.</a></p>
+        </section>
+        <div class="push"></div>
     </div>
+</div>
  <!--=======footer=================================-->
         <footer class="footer">
-            <p class="txt_footer">Jessica Terry Portfolio &copy; 2018</p>
+            <div class="container">
+              Jessica Terry Portfolio &copy; 2018
+            </div>
         </footer> 
     </div> 
 </body>

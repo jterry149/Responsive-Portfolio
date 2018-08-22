@@ -16,45 +16,48 @@
 <!--========Content=================================-->
 <body>
 
-    <div class="container">
 <!--==========Header=================================-->
-        <header class="header">     
-            <h1 class="logo">Jessica Terry</h1> 
+        <header id="headerhead">   
+            <div class="container">  
+                <a href="index.html" id="logo">Jessica Terry</a> 
 <!--========Navigation Links========================-->
-                <nav class="nav-menu">
-                     <ul>
-                        <li><a class="#" href="index.html">About</a></li>
-                        <li><a class="#" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="active" href="contact.html">Contact</a></li>
-                     </ul>
+                <nav>
+                    <a class="#" href="index.html">About</a>
+                    <a class="#" href="portfolio.html">Portfolio</a>
+                    <a class="active" href="contact.html">Contact</a>
                 </nav>
+            </div>
         </header>                       
 <!--========Contact Content Main Body========================-->
-    <div class="content-1">
-        <div class="contact">
-            <h2 class="contact-heading">Contact</h2>
-            <form action="#">
+<div class="wrapper">
+    <div id="main-content" class="container">
+        <section class="contact-section">
+            <h1>Contact</h1>
+            <form class="contact-form">
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required="required">
                 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required="required">
                 
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Email Address..">
+                <input type="email" id="email" placeholder="Email Address.." required="required">
                 
                 <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <textarea id="text" name="subject" placeholder="Write something.." style="height:100px"></textarea required="required">
                 
-                <input type="submit" value="Submit">
-                
-                </form>
-            </div>
-        </div>
+                <input type="submit" value="Submit">          
+            </form>
+        </section>
+    <div class="push"></div>
     </div>
+</div>
+
  <!--=======footer=================================-->
         <footer class="footer">
-            <p class="txt_footer">Jessica Terry Portfolio &copy; 2018</p>
+            <div class="container">
+            Jessica Terry Portfolio &copy; 2018
+            </div>
         </footer> 
 </body>
 </html>
