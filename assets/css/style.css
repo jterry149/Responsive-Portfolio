@@ -273,9 +273,6 @@ input[type=submit]:hover {
 .banner:hover img {
     border: 5px solid #666666;
 }
-  
-
-
 /*============= Media Queries ================*/
 @media only screen and (max-width: 1239px) 
 {
